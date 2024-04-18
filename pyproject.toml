@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mongo"
+version = "0.1.0"
+description = ""
+authors = ["Omar-Eses <202010139@students.asu.edu.jo>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = {extras = ["srv"], version = "^4.6.3"}
+fastapi = "^0.110.1"
+motor = "^3.4.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
